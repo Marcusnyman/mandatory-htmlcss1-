@@ -1,0 +1,149 @@
+* {
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+
+}
+body, html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+#logo {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 20px;
+	left: 40px;
+	transition: transform 0.3s ease-in-out;
+}
+#logo:hover {
+  transform: scale(1.5) rotate(720deg);
+}
+h1 {
+	text-align: center;
+
+}
+h2 {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	padding: 10px;
+}
+a, p {
+	font-size: 1.0em;
+}
+ul#nav {
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul#nav .current {
+	font-weight: bold;
+	font-size: 1.15em;
+
+
+}
+li.navlink {
+	text-align: center;
+	display: inline-block;
+	margin-top: 1px;
+}
+p {
+	padding-left: 80px;
+	padding-right: 80px;
+
+}
+body {
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	/* test
+	background-image: url(stardust.png);
+	background-position: center; 
+    background-repeat: repeat; 
+     */
+
+}
+
+header {
+	flex: 1; 
+	background-color: rgba(0, 0, 0, 0.7);
+    border: solid black 2px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+	/*
+
+	border-bottom: solid black 1px;
+	border-radius: 15px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	*/
+
+}
+content {
+	flex: 6;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: solid black 2px;
+	/*
+	border-radius: 15px;
+	*/
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+footer {
+	flex: 0.5;
+	background-color: rgba(0, 0, 0, 0.7);
+	border: solid black 2px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+img#marcus {
+	margin-top: 20px;
+	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: black solid 2px;
+	padding: 20px;
+}
+td {
+	border: black solid 1px;
+}
+th {
+	padding-left: 0px;
+}
+ul#links {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: square;
+}
+form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding: 20px;
+	border: solid black 2px;
+}
+input, textarea, select{
+	background-color: black;
+    color: white;
+}

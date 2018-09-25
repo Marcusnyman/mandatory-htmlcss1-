@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Labb 1 - Contact</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+</head>
+<body>
+		<img src="img/logo.png" id="logo">
+		<header>
+			<h1>Contact</h1>
+			<ul id="nav">
+				<li class="navlink"><a href="index.html">Home</a></li>
+				<li class="navlink"><a href="about.html">About</a></li>
+				<li class="navlink"><a href="movies.html">Favorite movies</a></li>
+				<li class="navlink"><a href="links.html">Links</a></li>
+				<li class="navlink"><a href="contact.html" class="current">Contact me!</a></li>
+			</ul>
+		</header>
+		<content>
+			<h2>Contact Me!</h2>
+			<form method="get">
+				<label>Name: </label><br>
+				<input type="text" name="name" placeholder="Name" required><br>
+				<label>E-mail:</label><br>
+				<input type="email" name="email" placeholder="E-mail" required><br>
+				<label>Gender: </label><br>
+				<select required>
+					<option value="">-</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Neither">Neither</option>
+				</select>
+				<label>Message: </label><br>
+				<textarea rows="6" cols="20" required>Write your message here!</textarea><br>
+				<input type="submit" value="Submit!">
+			</form>
+		</content>
+		<footer>
+			<a href="mailto:Marcusnyman556@gmail.com">Contact me: Marcusnyman556@gmail.com</a>
+		</footer>
+
+</body>
+</html>
